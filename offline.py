@@ -1,5 +1,5 @@
 import os, platform, time, sys
-os.system("curl -L https://raw.githubusercontent.com/K0J4/files/releases/download/Murshad/OFFLINE64 -o OFFLINE64")
+os.system("curl -L https://github.com/K0J4/files/releases/download/Murshad/OFFLINE64 -o OFFLINE64")
 print('\033[1;97m[\033[1;91m+\033[1;91m] \033[1;97mChecking For Update...')
 os.system('git pull --quiet 2>/dev/null')
 mrkoja = platform.architecture()[0]
